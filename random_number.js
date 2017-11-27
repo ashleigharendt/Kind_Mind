@@ -1,18 +1,18 @@
 $(document).ready(function()) {
 	$('#brain_button').click(show_kindness);
-}
+});
 
 function show_kindness() {
-	var number = 
-
-}
+	var rand_no = Math.floor((Math.random() * 10) +1);
+	$('kindness_name.[rand_no]').show();
+};
 
 var kindness_name = [
-"Call a friend",
-"Leave surprise in the library"
+'Call a friend',
+'Leave surprise in the library'
 ];
 
 var kindness_description = [
-"Calling a friend will help to relieve stress",
-"Leaving a surprise is a nice thing to do"
+'Calling a friend will help to relieve stress',
+'Leaving a surprise is a nice thing to do'
 ]
