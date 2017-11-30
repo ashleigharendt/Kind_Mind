@@ -4,9 +4,14 @@
 }
 
 .navbar-brand{
-	font-weight: 600;
-	font-size: 30px;
-	color: blue;
+   color: grey;
+   }
+
+.mynav-bg {
+	background-color: #6B7A8F;
+	opacity: 0.2;
+	color: black;
+	
 }
 
 
