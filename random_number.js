@@ -1,20 +1,16 @@
 $(document).ready(function() {
-	$('#brain_button').click(function{
-		alert('hello');
-	});
+	$('p').hide();
+	$('#brain_button').click(show_kindness);
 });
 
 function show_kindness() {
-	var rand_no = Math.floor((Math.random() * 10) +1);
-	$(kindness_name.[rand_no]).show();
+	var rand_no = Math.floor((Math.random() * 2));
+	$(kindnesses[rand_no]['short']).show();
 };
 
-var kindness_name = [
-'Call a friend',
-'Leave surprise in the library'
+var kindnesses = [
+	{'short': '#Call_Friend',
+     'long': '#Call_Friend_Long',
+     'short':'#Book',
+     'long':'#Book_Long'}
 ];
-
-var kindness_description = [
-'Calling a friend will help to relieve stress',
-'Leaving a surprise is a nice thing to do'
-]
