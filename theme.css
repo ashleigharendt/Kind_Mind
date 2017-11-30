@@ -1,0 +1,24 @@
+
+.all{
+	display: none;
+}
+
+.navbar-brand{
+	font-weight: 600;
+	font-size: 30px;
+	color: blue;
+}
+
+
+body{
+	background-color: #87aeed;
+	font-family: "Futura-PT", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #6B7A8F;
+}
+
+
+h1 {
+	color: gray;
+}
