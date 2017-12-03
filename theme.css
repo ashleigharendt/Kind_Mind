@@ -1,18 +1,26 @@
-
 .RAK{
 	display: none;
 }
 
-.navbar-brand{
-	font-weight: 600;
-	font-size: 30px;
-	color: blue;
+.navbar-inverse{
+   color: red;
+   }
+
+.nav-item{
+   color: red;
+   }
+
+.mynav-bg {
+	background-color: #6B7A8F;
+	opacity: 0.4;
+	color: black;
+	
 }
 
 
 body{
 	background-color: #87aeed;
-	font-family: "Futura-PT", sans-serif;
+	font-family: helvetica;
 	font-style: normal;
 	font-weight: 300;
 	color: #6B7A8F;

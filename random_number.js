@@ -4,6 +4,8 @@ $(document).ready(function() {
 	$('#smile').hide();
 });
 
+
+
 function show_kindness() {
 	var rand_no = Math.floor((Math.random() * 15));
 	console.log(rand_no);
@@ -45,4 +47,7 @@ var kindnesses = [
      'long':'#Letter_Long'},
   	 {'short':'#Homeless',
      'long':'#Homeless_Long'}
-];
+     ];
+
+
+
