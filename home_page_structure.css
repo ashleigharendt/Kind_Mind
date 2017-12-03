@@ -1,0 +1,23 @@
+
+#face{
+	position: absolute;
+	z-index:auto;
+}
+#brain_button{
+	position:absolute;
+	top: 30px;
+	left:150px;
+	text-align: center;
+	background-color:#F7882F;
+}
+.all{
+	position: relative;
+	left:0; 
+	top:0;
+}
+
+#wobble{
+	position:absolute;
+	top:60px;
+	left:80px;
+}
