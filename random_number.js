@@ -4,6 +4,7 @@ $(document).ready(function() {
 	});
 });
 
+
 function show_kindness() {
 	var rand_no = Math.floor((Math.random() * 10) +1);
 	$(kindness_name.[rand_no]).show();
