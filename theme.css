@@ -1,5 +1,13 @@
 .RAK{
 	display: none;
+	position:absolute;
+	top:65px;
+	left:135px;
+	text-align:center;
+	width:240px;
+	color:white;
+	font-size:12px;
+	font-family: helvetica;
 }
 
 .navbar-inverse{
@@ -13,8 +21,7 @@
 .mynav-bg {
 	background-color: #6B7A8F;
 	opacity: 0.4;
-	color: black;
-	
+	color: black;	
 }
 
 
