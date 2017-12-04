@@ -41,3 +41,18 @@
 	position:absolute;
 	top:80px;
 }
+
+#tell_more{
+	width:110px;
+	height:auto;
+	position:absolute;
+	top:0px;
+}
+
+#new_kindness{
+	width:110px;
+	height:auto;
+	position:absolute;
+	top:0px;
+	left:380px;
+}

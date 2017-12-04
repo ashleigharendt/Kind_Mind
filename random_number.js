@@ -1,33 +1,30 @@
 $(document).ready(function() {
-	$('p').hide();
 	$('#brain_button').click(show_kindness);
 	$('#smile').hide();
     $('#tell_more').click(tell_more);
     $('#new_kindness').click(new_kindness);
+    $('#tell_more').hide();
+    $('#new_kindness').hide();
+
 });
 
 
 function show_kindness() {
 	var rand_no = Math.floor((Math.random() * 15));
-	console.log(rand_no);
 	$(kindnesses[rand_no]['short']).show();
-	console.log(kindnesses[rand_no]['short']);
+    $(kindnesses[rand_no]['long']).show();
 	$('#brain_button').hide();
 	$('#wobble').hide();
 	$('#smile').show();
-};
-
-function tell_more() {
-    $(kindnesses[rand_no]['long']).show();
-    console.log(kindnesses[rand_no]['long']);
+    $('#tell_more').show();
+    $('#new_kindness').show();
 };
 
 function new_kindness() {
-    $('.RAK').hide();
+    $('.RAK_Short').hide();
     var rand_no = Math.floor((Math.random() * 15));
-    console.log(rand_no);
     $(kindnesses[rand_no]['short']).show();
-    console.log(kindnesses[rand_no]['short']);
+    $(kindnesses[rand_no]['long']).show();
 }
 
 var kindnesses = [

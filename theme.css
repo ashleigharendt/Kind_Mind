@@ -1,4 +1,4 @@
-.RAK{
+.RAK_Short{
 	display: none;
 	position:absolute;
 	top:65px;
@@ -8,6 +8,9 @@
 	color:white;
 	font-size:12px;
 	font-family: helvetica;
+}
+.RAK_Long{
+	display:none;
 }
 
 .navbar-inverse{
