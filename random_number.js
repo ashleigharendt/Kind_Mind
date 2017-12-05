@@ -12,16 +12,18 @@ $(document).ready(function() {
 function show_kindness() {
 	var rand_no = Math.floor((Math.random() * 15));
 	$(kindnesses[rand_no]['short']).show();
-    $(kindnesses[rand_no]['long']).show();
-	$('#brain_button').hide();
+	$(kindnesses[rand_no]['long']).show();
+    $('#brain_button').hide();
 	$('#wobble').hide();
 	$('#smile').show();
     $('#tell_more').show();
     $('#new_kindness').show();
+        
 };
 
 function new_kindness() {
     $('.RAK_Short').hide();
+    $('.RAK_Long').hide();
     var rand_no = Math.floor((Math.random() * 15));
     $(kindnesses[rand_no]['short']).show();
     $(kindnesses[rand_no]['long']).show();
