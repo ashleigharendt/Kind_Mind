@@ -49,6 +49,7 @@ h1{
 	width: 100%;
 	margin: 0 auto; 	
 	color: gray;
+	font-family:arial;
 
 }
 
@@ -64,7 +65,7 @@ h1{
 
 .face{
 	position:relative;
-	max-width:500px;
+	max-width:60%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -75,6 +76,9 @@ h1{
 
 #brain_button{
 	position:absolute;
+	width:50px;
+	max-width:100%;
+	width:auto;
 	top:15%;
 	left:37%;
 	text-align: center;
@@ -84,17 +88,17 @@ h1{
 
 #wobble{
 	position:absolute;
-	top:48%;
-	left:24%;
-	max-height:200px;
+	top:45%;
+	left:20%;
+	max-height:65%;
 	width:auto;
 	}
 
 #smile{
 	position:absolute;
-	top:44%;
-	left:24%;
-	max-height:200px;
+	top:40%;
+	left:20%;
+	max-height:60%;
 	width:auto;
 	}
 
