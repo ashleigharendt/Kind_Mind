@@ -31,16 +31,17 @@ body{
 
 	}
 #brain_button{
-	position:absolute;
+	position:relative;
 	top: 60px;
-	left:185px;
+	left: 200px;
 	text-align: center;
 	background-color:#F7882F;
 	border:none;
-	
 	}
 
-
+.all {
+	text-align:center;
+}
 
 #wobble{
 	position:absolute;
