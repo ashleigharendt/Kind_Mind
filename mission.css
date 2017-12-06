@@ -3,16 +3,12 @@ p {
 	color: white;
 	font-size:18px;
 	border-radius: 10px;
-	padding:30px 40px;
-	margin:60px 30px;
+	padding:20px 20px;
+	margin:20px 20px;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
 	color: #6B7A8F;
 	font-family: 'Montserrat', sans-serif;
-}
-
-.images{
-	float:left;
 }
