@@ -1,10 +1,10 @@
 .RAK_Short{
 	display: none;
 	position:absolute;
-	top:65px;
-	left:135px;
+	top:18%;
+	left:27%;
 	text-align:center;
-	width:240px;
+	width:50%;
 	color:white;
 	font-size:12px;
 	font-family: helvetica;
@@ -12,7 +12,13 @@
 
 .RAK_Long{
 	display:none;
-	border: 10px solid #F7882F;
+	background:#6B7A8F;
+	font-family:arial;
+	color: white;
+	font-size:20px;
+	opacity: 0.7;
+	border-radius: 10px;
+	border: solid black;
 }
 
 .navbar-inverse{
@@ -29,7 +35,6 @@
 	color: black;	
 }
 
-
 body{
 	background-color: #87aeed;
 	font-style: normal;
@@ -39,67 +44,56 @@ body{
 	text-align: center;
 }
 
-
-h1 {
-	color: gray;
-}
-
-
 h1{
 	background-color: #87aeed;
-	width: 50%;
-	margin: 0 auto; 
+	width: 100%;
+	margin: 0 auto; 	
+	color: gray;
+
 }
 
-body{
-	margin: 0 auto;
-	width: auto;
-    height: 2000px;
-    background-color: #87aeed;
-}
 
 .all{
 	position: relative;
 	width: 100%;
 	height: 2000px;
     background-color: #87aeed;
-
+    font-size:100%;
+    text-align:center;
 }
 
 .face{
-	position:center;
+	position:relative;
+	max-width:500px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 #face{
 	vertical-align: bottom;
 	background-color: #87aeed;
-
 	}
+
 #brain_button{
-	position:relative;
-	top: 60px;
-	left: 200px;
+	position:absolute;
+	top:15%;
+	left:37%;
 	text-align: center;
 	background-color:#F7882F;
 	border:none;
 	}
 
-.all {
-	text-align:center;
-}
-
 #wobble{
 	position:absolute;
-	top:170px;
-	left:120px;
+	top:48%;
+	left:24%;
 	max-height:200px;
 	width:auto;
 	}
 
 #smile{
 	position:absolute;
-	top:150px;
-	left:120px;
+	top:44%;
+	left:24%;
 	max-height:200px;
 	width:auto;
 	}
@@ -110,20 +104,21 @@ body{
 }
 
 #tell_more{
-	width:110px;
+	width:20%;
 	height:auto;
 	position:absolute;
-	top:0px;
+	top:0;
+	left:5%;
 	margin: 0 auto;
 	background-color: #87aeed;
 }
 
 #new_kindness{
-	width:110px;
+	width:20%;
 	height:auto;
 	position:absolute;
-	top:0px;
-	left:380px;
+	top:0;
+	left:75%;
 	margin: 0 auto;
 	background-color: #87aeed;
 }
