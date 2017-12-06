@@ -12,7 +12,6 @@
 .RAK_Long{
 	display:none;
 	background:#6B7A8F;
-	font-family:arial;
 	color: white;
 	font-size:18px;
 	border-radius: 10px;
@@ -75,14 +74,15 @@ h1{
 
 #brain_button{
 	position:absolute;
-	top:8%;
-	left:39%;
+	top:10px;
+	left:50px;
+	height:auto;
+	width:auto;
 	text-align: center;
 	background-color:#f7882f;
 	border:none;
   	padding: 10px 16px;
   	font-size: 18px;
-  	line-height: 1.3333333;
  	}
 
 @media (max-width:760px) { 
