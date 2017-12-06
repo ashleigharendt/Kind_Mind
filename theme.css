@@ -28,12 +28,12 @@
 }
 
 
-.all{
+body{
 	background-color: #87aeed;
-	font-family:arial;
 	font-style: normal;
 	font-weight: 300;
 	color: #6B7A8F;
+	font-family: helvetica;
 }
 
 
