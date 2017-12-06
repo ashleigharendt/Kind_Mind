@@ -29,6 +29,7 @@ function show_kindness() {
 function tell_more() {
     var rand_no = $('#store_random').data('last-random');
     $(kindnesses[rand_no]['long']).show();
+    $(window).scrollTop($('.RAK_Long').offset().top);
 };
     
 var kindnesses = [
