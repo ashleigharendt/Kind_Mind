@@ -1,13 +1,12 @@
 .RAK_Short{
 	display: none;
 	position:absolute;
-	top:18%;
+	top:15%;
 	left:27%;
 	text-align:center;
-	width:50%;
+	width:48%;
 	color:white;
 	font-size:12px;
-	font-family: helvetica;
 }
 
 .RAK_Long{
@@ -15,10 +14,10 @@
 	background:#6B7A8F;
 	font-family:arial;
 	color: white;
-	font-size:20px;
-	opacity: 0.7;
+	font-size:18px;
 	border-radius: 10px;
-	border: solid black;
+	padding:30px 40px;
+	margin:60px 30px;
 }
 
 .navbar-inverse{
@@ -30,37 +29,37 @@
    }
 
 .mynav-bg {
-	background-color: #6B7A8F;
-	opacity: 0.4;
-	color: black;	
+	background-color: #DCC7AA;
+	opacity: 0.7;
+	color: #6B7A8F;	
 }
 
 body{
-	background-color: #87aeed;
+	background-color: #DCC7AA;
 	font-style: normal;
 	font-weight: 300;
 	color: #6B7A8F;
-	font-family: helvetica;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
 h1{
-	background-color: #87aeed;
+	background-color: #DCC7AA;
 	width: 100%;
-	margin: 0 auto; 	
-	color: gray;
-	font-family:arial;
-
+	margin: 50px auto; 	
+	color: #6B7A8F;
+	font-family: 'Montserrat', sans-serif;
 }
-
 
 .all{
 	position: relative;
 	width: 100%;
 	height: 2000px;
-    background-color: #87aeed;
+    background-color: #DCC7AA;
     font-size:100%;
     text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    color: #6B7A8F;
 }
 
 .face{
@@ -71,20 +70,30 @@ h1{
 }
 #face{
 	vertical-align: bottom;
-	background-color: #87aeed;
+	background-color: #DCC7AA;
 	}
 
 #brain_button{
 	position:absolute;
-	width:50px;
-	max-width:100%;
-	width:auto;
-	top:15%;
-	left:37%;
+	top:8%;
+	left:39%;
 	text-align: center;
-	background-color:#F7882F;
+	background-color:#f7882f;
 	border:none;
-	}
+  	padding: 10px 16px;
+  	font-size: 18px;
+  	line-height: 1.3333333;
+ 	}
+
+@media (max-width:760px) { 
+    /* matches 'btn-xs' */
+    #brain_button {
+        padding: 1px 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+}
 
 #wobble{
 	position:absolute;
@@ -114,7 +123,7 @@ h1{
 	top:0;
 	left:5%;
 	margin: 0 auto;
-	background-color: #87aeed;
+	background-color:#DCC7AA;
 }
 
 #new_kindness{
@@ -124,5 +133,5 @@ h1{
 	top:0;
 	left:75%;
 	margin: 0 auto;
-	background-color: #87aeed;
+	background-color:#DCC7AA;
 }
