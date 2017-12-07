@@ -28,3 +28,9 @@ h1{
 	color: #6B7A8F;
 	font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-wdth:320px) {
+	.all {
+		font-size:2em;
+	}
+}
