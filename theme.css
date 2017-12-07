@@ -19,7 +19,6 @@ body{
 	color: #6B7A8F;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	font-size:100%;
 }
 
 h1{
@@ -32,6 +31,6 @@ h1{
 
 @media (max-width:320px) {
 	.all {
-		font-size:2em;
+		font-size:10%;
 	}
 }
