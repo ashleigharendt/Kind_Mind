@@ -29,7 +29,7 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-wdth:320px) {
+@media (max-width:320px) {
 	.all {
 		font-size:2em;
 	}
