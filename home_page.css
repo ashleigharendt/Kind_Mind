@@ -62,6 +62,9 @@
         line-height: 1.5;
         border-radius: 3px;
     }
+    .RAK_Short {
+    	font-size:5px;
+    }
 }
 
 #wobble{
