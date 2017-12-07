@@ -1,7 +1,7 @@
 .RAK_Short{
 	display: none;
 	position:absolute;
-	top:17%;
+	top:19%;
 	left:27%;
 	text-align:center;
 	width:48%;
@@ -63,7 +63,7 @@
         border-radius: 3px;
     }
     .RAK_Short {
-    	font-size:5px;
+    	font-size:10px;
     }
 }
 
